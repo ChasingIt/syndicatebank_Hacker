@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.syn"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Synd\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Synd\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Synd\app\src\main\AndroidManifest.xml:5:5-40:19
+12        android:allowBackup="true"
+12-->D:\Synd\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Synd\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Synd\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Synd\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Synd\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->D:\Synd\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.syn.Main_Activity" />
+20-->D:\Synd\app\src\main\AndroidManifest.xml:12:9-60
+20-->D:\Synd\app\src\main\AndroidManifest.xml:12:19-48
+21        <activity android:name="com.example.syn.Main_activity" />
+21-->D:\Synd\app\src\main\AndroidManifest.xml:13:9-51
+21-->D:\Synd\app\src\main\AndroidManifest.xml:13:19-48
+22        <activity android:name="com.example.syn.Main_activity_1" />
+22-->D:\Synd\app\src\main\AndroidManifest.xml:14:9-53
+22-->D:\Synd\app\src\main\AndroidManifest.xml:14:19-50
+23        <activity android:name="com.example.syn.MainActivity" />
+23-->D:\Synd\app\src\main\AndroidManifest.xml:15:9-50
+23-->D:\Synd\app\src\main\AndroidManifest.xml:15:19-47
+24        <activity android:name="com.example.syn.Transfer" />
+24-->D:\Synd\app\src\main\AndroidManifest.xml:16:9-46
+24-->D:\Synd\app\src\main\AndroidManifest.xml:16:19-43
+25        <activity android:name="com.example.syn.Settings" />
+25-->D:\Synd\app\src\main\AndroidManifest.xml:17:9-46
+25-->D:\Synd\app\src\main\AndroidManifest.xml:17:19-43
+26        <activity android:name="com.example.syn.ScanAndPay" />
+26-->D:\Synd\app\src\main\AndroidManifest.xml:18:9-48
+26-->D:\Synd\app\src\main\AndroidManifest.xml:18:19-45
+27        <activity android:name="com.example.syn.Profile" />
+27-->D:\Synd\app\src\main\AndroidManifest.xml:19:9-45
+27-->D:\Synd\app\src\main\AndroidManifest.xml:19:19-42
+28        <activity android:name="com.example.syn.Investment" />
+28-->D:\Synd\app\src\main\AndroidManifest.xml:20:9-48
+28-->D:\Synd\app\src\main\AndroidManifest.xml:20:19-45
+29        <activity android:name="com.example.syn.Health" />
+29-->D:\Synd\app\src\main\AndroidManifest.xml:21:9-44
+29-->D:\Synd\app\src\main\AndroidManifest.xml:21:19-41
+30        <activity android:name="com.example.syn.Deposit" />
+30-->D:\Synd\app\src\main\AndroidManifest.xml:22:9-45
+30-->D:\Synd\app\src\main\AndroidManifest.xml:22:19-42
+31        <activity android:name="com.example.syn.Chatbot" />
+31-->D:\Synd\app\src\main\AndroidManifest.xml:23:9-45
+31-->D:\Synd\app\src\main\AndroidManifest.xml:23:19-42
+32        <activity android:name="com.example.syn.CHatbot" />
+32-->D:\Synd\app\src\main\AndroidManifest.xml:24:9-45
+32-->D:\Synd\app\src\main\AndroidManifest.xml:24:19-42
+33        <activity android:name="com.example.syn.Cardbtn4" />
+33-->D:\Synd\app\src\main\AndroidManifest.xml:25:9-46
+33-->D:\Synd\app\src\main\AndroidManifest.xml:25:19-43
+34        <activity android:name="com.example.syn.Cardbtn3" />
+34-->D:\Synd\app\src\main\AndroidManifest.xml:26:9-46
+34-->D:\Synd\app\src\main\AndroidManifest.xml:26:19-43
+35        <activity android:name="com.example.syn.Cardbtn2" />
+35-->D:\Synd\app\src\main\AndroidManifest.xml:27:9-46
+35-->D:\Synd\app\src\main\AndroidManifest.xml:27:19-43
+36        <activity android:name="com.example.syn.Cardbtn1" />
+36-->D:\Synd\app\src\main\AndroidManifest.xml:28:9-46
+36-->D:\Synd\app\src\main\AndroidManifest.xml:28:19-43
+37        <activity android:name="com.example.syn.Card" />
+37-->D:\Synd\app\src\main\AndroidManifest.xml:29:9-42
+37-->D:\Synd\app\src\main\AndroidManifest.xml:29:19-39
+38        <activity android:name="com.example.syn.Btn1" />
+38-->D:\Synd\app\src\main\AndroidManifest.xml:30:9-42
+38-->D:\Synd\app\src\main\AndroidManifest.xml:30:19-39
+39        <activity
+39-->D:\Synd\app\src\main\AndroidManifest.xml:31:9-39:20
+40            android:name="com.example.syn.ui.login.LoginActivity"
+40-->D:\Synd\app\src\main\AndroidManifest.xml:32:13-51
+41            android:label="@string/app_name" >
+41-->D:\Synd\app\src\main\AndroidManifest.xml:33:13-45
+42            <intent-filter>
+42-->D:\Synd\app\src\main\AndroidManifest.xml:34:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Synd\app\src\main\AndroidManifest.xml:35:17-69
+43-->D:\Synd\app\src\main\AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Synd\app\src\main\AndroidManifest.xml:37:17-77
+45-->D:\Synd\app\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+50            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+51            android:authorities="com.example.syn.lifecycle-process"
+51-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+52            android:exported="false"
+52-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+53            android:multiprocess="true" />
+53-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aksha\.gradle\caches\transforms-2\files-2.1\bba9e662e9f4bf0da774229f97b853fc\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+54    </application>
+55
+56</manifest>
